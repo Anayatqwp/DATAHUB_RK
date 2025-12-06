@@ -1,0 +1,13 @@
+module Main
+typeinfo appDataHubRK.qmltypes
+prefer :/Main/
+Main 1.0 Main.qml
+InfoBox 1.0 InfoBox.qml
+CompareUniCard 1.0 CompareUniCard.qml
+LoginPopup 1.0 LoginPopup.qml
+SignupPopup 1.0 SignupPopup.qml
+ProfilePopup 1.0 ProfilePopup.qml
+FavPopup 1.0 FavPopup.qml
+CompareTable 1.0 CompareTable.qml
+depends QtQuick
+

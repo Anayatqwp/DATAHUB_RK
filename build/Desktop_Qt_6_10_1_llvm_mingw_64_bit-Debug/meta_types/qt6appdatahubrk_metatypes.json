@@ -1,0 +1,258 @@
+[
+    {
+        "classes": [
+            {
+                "className": "Backend",
+                "lineNumber": 39,
+                "methods": [
+                    {
+                        "access": "public",
+                        "index": 0,
+                        "lineNumber": 46,
+                        "name": "getUniversityNames",
+                        "returnType": "QStringList"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "uniIndex",
+                                "type": "int"
+                            },
+                            {
+                                "name": "tabIndex",
+                                "type": "int"
+                            }
+                        ],
+                        "index": 1,
+                        "lineNumber": 47,
+                        "name": "getInfo",
+                        "returnType": "QString"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "uniIndex",
+                                "type": "int"
+                            }
+                        ],
+                        "index": 2,
+                        "lineNumber": 48,
+                        "name": "getWebsite",
+                        "returnType": "QString"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "uniIndex",
+                                "type": "int"
+                            }
+                        ],
+                        "index": 3,
+                        "lineNumber": 49,
+                        "name": "getUniversityDetails",
+                        "returnType": "QVariantMap"
+                    },
+                    {
+                        "access": "public",
+                        "index": 4,
+                        "lineNumber": 50,
+                        "name": "getComparisonTableData",
+                        "returnType": "QVariantList"
+                    },
+                    {
+                        "access": "public",
+                        "index": 5,
+                        "lineNumber": 53,
+                        "name": "getNews",
+                        "returnType": "QVariantList"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "uniIndex",
+                                "type": "int"
+                            }
+                        ],
+                        "index": 6,
+                        "lineNumber": 54,
+                        "name": "toggleFavorite",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "uniIndex",
+                                "type": "int"
+                            }
+                        ],
+                        "index": 7,
+                        "lineNumber": 55,
+                        "name": "isFavorite",
+                        "returnType": "bool"
+                    },
+                    {
+                        "access": "public",
+                        "index": 8,
+                        "lineNumber": 56,
+                        "name": "getFavorites",
+                        "returnType": "QStringList"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "question",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 9,
+                        "lineNumber": 59,
+                        "name": "askAI",
+                        "returnType": "QString"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "lang",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 10,
+                        "lineNumber": 60,
+                        "name": "getAIWelcomeMessage",
+                        "returnType": "QString"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "surname",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "name",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "patr",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "date",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "iin",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "phone",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "city",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "score",
+                                "type": "int"
+                            }
+                        ],
+                        "index": 11,
+                        "lineNumber": 63,
+                        "name": "saveProfile",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 12,
+                        "lineNumber": 66,
+                        "name": "getUserProfile",
+                        "returnType": "QVariantMap"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "name",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "email",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "password",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 13,
+                        "lineNumber": 69,
+                        "name": "registerUser",
+                        "returnType": "bool"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "email",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "password",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 14,
+                        "lineNumber": 70,
+                        "name": "loginUser",
+                        "returnType": "bool"
+                    },
+                    {
+                        "access": "public",
+                        "index": 15,
+                        "lineNumber": 71,
+                        "name": "logout",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 16,
+                        "lineNumber": 72,
+                        "name": "isUserLoggedIn",
+                        "returnType": "bool"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "lang",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 17,
+                        "lineNumber": 75,
+                        "name": "getUiStrings",
+                        "returnType": "QVariantMap"
+                    }
+                ],
+                "object": true,
+                "qualifiedClassName": "Backend",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "backend.h",
+        "outputRevision": 69
+    }
+]
